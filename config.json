@@ -1,0 +1,31 @@
+{
+  "dispositivos": [
+    {
+      "id": "dev-cafetera",
+      "nombre": "Cafetera",
+      "url": "ws://192.168.1.11/ws",
+      "tipo": "sensor_texto"
+    },
+    {
+      "id": "dev-calentador",
+      "nombre": "Calentador",
+      "url": "ws://192.168.1.10/ws",
+      "tipo": "sensor_texto"
+    },
+    {
+      "id": "dev-luz-sala",
+      "nombre": "Luz de la Sala",
+      "url": "ws://192.168.1.12/ws",
+      "tipo": "switch",
+      "comando_on": "ON",
+      "comando_off": "OFF"
+    },
+    {
+      "id": "dev-sensor-temp",
+      "nombre": "Temperatura Patio",
+      "url": "ws://192.168.1.13/ws",
+      "tipo": "sensor_valor",
+      "unidad": "°C"
+    }
+  ]
+}
