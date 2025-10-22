@@ -3,7 +3,7 @@
     {
       "id": "Matriz-01",
       "nombre": "Matriz led",
-      "url": "ws://192.168.0.110/ws",
+      "url": "https://192.168.0.110",
       "tipo": "sensor_texto"
     },
     {
@@ -23,7 +23,7 @@
     {
       "id": "Tanque Superior",
       "nombre": "Tanque Superior",
-      "url": "ws://192.168.´0.116/ws",
+      "url": "192.168.´0.116",
       "tipo": "sensor_valor",
       "unidad": "°C"
     }
