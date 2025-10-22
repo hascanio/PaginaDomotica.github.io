@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         function conectar() {
             try {
-                ws = new WebSocket(https://paginadomotica-github-io-34454.onrender.com/);
+                ws = new WebSocket(https://paginadomotica-github-io-25858.onrender.com);
 
                 // --- MANEJADORES DE EVENTOS DEL WEBSOCKET ---
 
