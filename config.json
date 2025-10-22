@@ -1,29 +1,29 @@
 {
   "dispositivos": [
     {
-      "id": "dev-cafetera",
-      "nombre": "Cafetera",
-      "url": "ws://192.168.1.11/ws",
+      "id": "Matriz-01",
+      "nombre": "Matriz led",
+      "url": "ws://192.168.0.110/ws",
       "tipo": "sensor_texto"
     },
     {
-      "id": "dev-calentador",
+      "id": "ESP8266-Calentador",
       "nombre": "Calentador",
-      "url": "ws://192.168.1.10/ws",
+      "url": "ws://192.168.0.111/ws",
       "tipo": "sensor_texto"
     },
     {
-      "id": "dev-luz-sala",
-      "nombre": "Luz de la Sala",
-      "url": "ws://192.168.1.12/ws",
+      "id": "Lampara-Taller",
+      "nombre": "Lampara Taller",
+      "url": "ws://192.168.0.129/ws",
       "tipo": "switch",
       "comando_on": "ON",
       "comando_off": "OFF"
     },
     {
-      "id": "dev-sensor-temp",
-      "nombre": "Temperatura Patio",
-      "url": "ws://192.168.1.13/ws",
+      "id": "Tanque Superior",
+      "nombre": "Tanque Superior",
+      "url": "ws://192.168.´0.116/ws",
       "tipo": "sensor_valor",
       "unidad": "°C"
     }
